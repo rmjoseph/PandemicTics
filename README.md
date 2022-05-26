@@ -34,4 +34,4 @@ data_raw/imd/practice_imd_21_001650.txt | Linked data set, practice level IMD, p
 data_raw/set_21_Source_Aurum/linkage_eligibility.txt | Linkage set 21 source file provided by CPRD
 
 ### Running the code
-- The file 'do/scripts_masterfile.do' should be used to run the analysis. The path to the working directory must be set at **line 17**. All other scripts use relative paths.
+- The file 'do/scripts_masterfile_v2.do' should be used to run the analysis. The path to the working directory must be set at **line 17**. All other scripts use relative paths.
