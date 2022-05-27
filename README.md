@@ -10,8 +10,8 @@ We request that any use of or reference to the Stata code within this repository
 
 ## Using the files
 ### Stata information
-This project was performed using Stata/MP v17. Reuse requires at least Stata 16 as the frames function is used throughout. The following Stata modules are required:
-- (write list)
+This project was performed using Stata/MP v17. Reuse requires at least Stata 16 as the frames function is used throughout. The following Stata packages are required:
+- frameappend (ssc install frameappend)
 
 ### Data
 The data were provided under licence by the Clinical Practice Research Datalink (CPRD, CPRD AURUM dataset March 2022). The database query used to define primary care data has been provided (Define_March22.docx). The linked data (patient- and practice-level Index of Multiple Deprivation quintiles) were provided directly by CPRD for a subset of patients (the code to define these patients is provided).
