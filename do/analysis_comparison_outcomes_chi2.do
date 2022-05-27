@@ -113,7 +113,7 @@ forvalues x=1/4 {
 }
 
 local date: display %dCYND date("`c(current_date)'", "DMY")
-putdocx save "R:/QResearch/Tics/analysis/outputs/outcome_chi2_results_`date'", replace
+putdocx save "outputs/outcome_chi2_results_`date'", replace
 
 
 
