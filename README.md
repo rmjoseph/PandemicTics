@@ -6,7 +6,8 @@ This repository contains all the Stata do-files and code lists required to prepa
 
 The analysis, including the protocol and the Stata code in this repository, was designed and written by researchers at the University of Nottingham. The work was funded by the NIHR Nottingham Biomedical Research Centre. This code underpins all of the results of this study, including those presented in published works, and has been shared for purposes of transparency and reproducibility. Any views represented are the views of the authors alone and do not necessarily represent the views of the Department of Health in England, NHS, or the National Institute for Health Research.
 
-We request that any use of or reference to the Stata code within this repository is cited appropriately using the information provided on its Zenodo entry.
+We request that any use of or reference to the Stata code within this repository is cited appropriately using the information provided on its Zenodo entry: [![DOI](https://zenodo.org/badge/496284777.svg)](https://zenodo.org/badge/latestdoi/496284777)
+
 
 ## Using the files
 ### Stata information
