@@ -12,6 +12,7 @@
 *	20220225	prep_tictimeseries	Offset stop by 0.9 day for survival etc
 *	20220411	prep_tictimeseries	Paste code to collapse dataset from rates_itsa_poisson
 *	20220411	prep_tictimeseries	Also gen simplified counts collapsed dataset
+*	20220809	prep_tictimeseries	Changed period label so 2=2021
 *************************************
 
 frames reset
@@ -148,7 +149,7 @@ duplicates drop
 
 gen rate=(eventscount/persontime)*10000
 
-label def period 0 "2015-2019" 1 "2020" 2 "2022"
+label def period 0 "2015-2019" 1 "2020" 2 "2021" // RHJ 20220908 changed label for 2 to "2021"
 label values yearcat period
 
 label def age 0 "4-11 years" 1 "12-18 years"

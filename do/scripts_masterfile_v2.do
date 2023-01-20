@@ -10,12 +10,13 @@
 *	20220110	scripts_masterfile	Create file
 *	20220110	scripts_masterfile	Add code to import medical and product dicts
 *	20220526	scripts_masterfile	Save _v2 after preparing for upload
+*	20230120	scripts_masterfile_v2	Add final analysis scripts after peer review
 *************************************
 
 **# set up environment
 frames reset
 set more off
-cd "FILE PATH" // SPECIFY WORKING DIRECTORY HERE
+cd "FILEPATH" // SPECIFY WORKING DIRECTORY HERE
 pwd
 
 **# log file
@@ -67,6 +68,9 @@ do "do/analysis_poisson.do"
 // Figure 1, monthly incidence rates
 do "do/analysis_rates_graph.do"
 
+// Additions after peer review
+do "do/analysis_poisson_covariates.do"
+do "do/analysis_nbreg_covariates.do"
 
 
 **# other useful scripts
